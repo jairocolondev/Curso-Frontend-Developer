@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Card Test</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .line {
+      width: 200px;
+      margin: auto;
+      border: 2px solid rgb(255, 63, 95)
+    }
+    section {
+      margin-top: 40px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 50px;
+    }
+
+    .container {
+      flex-basis: 25%;
+      background: rgb(199, 41, 67);
+      width: 400px;
+      height: 500px;
+      border-radius: 20px;
+      overflow: hidden;
+      text-align: center;
+      margin: auto;
+      
+      box-shadow: 0px 0px 0px 3px lightgrey;
+    }
+
+    .container img {
+      width: 100%;
+    }
+
+    .container h2 {
+      padding-top: 10px;
+      font-weight: 400;
+      text-align: center;
+      font-size: 1.5rem;
+      color: aliceblue;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .description {
+      font-weight: 100;
+      font-size: 1rem;
+      color: aliceblue;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+     .container {
+      width: 100%;
+      flex-direction: column;
+     }
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mis hermosas mascotas hijas</h1>
+  <div class="line"""></div>
+  <section>
+    <div class="container">
+      <img src="Assets/image/Jeyka.png" alt="Mi hermosa Jeyka"/>
+      <h2>JeyKa</h2>
+      <p class="description">Mi guarda espaldas</p>
+    </div>
+    <div class="container">
+      <img src="Assets/image/Kira.png" alt="Mi hermosa Kira"/>
+      <h2>Kira</h2>
+      <p class="description">Mi noble y consentida</p>
+    </div>
+    <div class="container">
+      <img src="Assets/image/Simona.png" alt="Mi hermosa Simona"/>
+      <h2>Simona</h2>
+      <p class="description">Mi loquita e inigualable</p>
+    </div>
+    <div class="container">
+      <img src="Assets/image/Mona.png" alt="Mi hermosa Mona"/>
+      <h2>Mona</h2>
+      <p class="description">Mi reservada y carñosa</p>
+    </div>
+  </section>
+</body>
+
+</html>
